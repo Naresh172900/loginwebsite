@@ -1,0 +1,45 @@
+body{
+	background:linear-gradient(to right,#544a7d,#ffd452);
+}
+table{
+	width:400px;
+	margin:100px auto;
+	padding:10px;
+	/* background-color:lightgreen; */
+	background:linear-gradient(to right,green,red,yellow);	
+	border-radius:15px;	
+	text-align:center;
+	box-shadow:0 0 10px black;
+}
+tr{
+	height:45px;	
+}
+a{
+	width:140px;
+	padding:3px;
+	background:yellow;
+}
+input{
+	font-size:18px;
+	text-align:center;
+	padding:2px;
+	border-radius:10px;	
+}
+input[type=submit]{
+	background:transparent;
+	width:140px;
+	padding:3px;
+	border:1px solid white;
+	border-radius:20px;
+	color:white;
+}
+input[type=submit]:hover{
+	box-shadow:0 0 10px white;	
+	/* background:linear-gradient(45deg, black 50%, orangered 50%);	 */
+	background:linear-gradient(45deg, rgba(9,9,121,1) 39%, rgba(0,212,255,1));
+	
+}
+a:hover{
+	box-shadow:0 0 10px white;
+	background:linear_gradient(45deg, rgba(9,9,121,1) 39%, rgba(0,212,255,1));
+}
